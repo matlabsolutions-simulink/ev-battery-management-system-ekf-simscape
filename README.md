@@ -15,25 +15,7 @@ This repository provides a standalone MATLAB implementation of an Extended Kalma
 ### State Update Equation (Thevenin 1-RC Model)
 
 $$
-\begin{bmatrix}
-SOC_k \\
-V_{1,k}
-\end{bmatrix}
-=
-\begin{bmatrix}
-1 & 0 \\
-0 & e^{-\Delta t / (R_1 C_1)}
-\end{bmatrix}
-\begin{bmatrix}
-SOC_{k-1} \\
-V_{1,k-1}
-\end{bmatrix}
-+
-\begin{bmatrix}
--\frac{\eta \Delta t}{3600 Q_n} \\
-R_1 \left(1 - e^{-\Delta t / (R_1 C_1)}\right)
-\end{bmatrix}
-I_k + w_k
+\begin{bmatrix} SOC_k \\ V_{1,k} \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & e^{-\Delta t / (R_1 C_1)} \end{bmatrix} \begin{bmatrix} SOC_{k-1} \\ V_{1,k-1} \end{bmatrix} + \begin{bmatrix} -\frac{\eta \Delta t}{3600 Q_n} \\ R_1 \left(1 - e^{-\Delta t / (R_1 C_1)}\right) \end{bmatrix} I_k + w_k
 $$
 
 ### Terminal Voltage Output Equation
