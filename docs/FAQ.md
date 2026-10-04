@@ -2,14 +2,6 @@
 
 > Verified solutions to real student and researcher laboratory inquiries.
 
-### Q: How does ambient temperature impact EKF SOC estimation accuracy?
-
-**Verified Technical Solution:**
-
-None
-
----
-
 ### Q: How does ambient temperature impact EKF SOC estimation in lithium batteries?
 
 **Verified Technical Solution:**
