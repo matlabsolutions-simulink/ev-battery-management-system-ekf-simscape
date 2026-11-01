@@ -1,10 +1,10 @@
-# EV Battery Management System (BMS) with EKF State-of-Charge (SOC) Estimation
+# EV Battery Management System (BMS) with Extended Kalman Filter (EKF) State-of-Charge (SOC) Estimation
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%20%7C%20R2024b-0076A8?logo=mathworks&logoColor=white)](https://www.mathworks.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Domain](https://img.shields.io/badge/Domain-Electric%20Vehicles%20&%20Energy%20Storage-lightgrey.svg)](#)
 
-A standalone MATLAB implementation of EV Battery Management System (BMS) with EKF State-of-Charge (SOC) Estimation. Includes the governing dynamics, analytical formulations, and an executable script you can run directly without proprietary third-party dependencies.
+A standalone MATLAB implementation of EV Battery Management System (BMS) with Extended Kalman Filter (EKF) State-of-Charge (SOC) Estimation. Includes the governing dynamics, analytical formulations, and an executable script you can run directly without proprietary third-party dependencies.
 
 ## Overview
 
